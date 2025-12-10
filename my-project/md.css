@@ -1,0 +1,31 @@
+body{
+    background-color:blueviolet;
+    display: flex;
+    transition: 3s;
+    }
+div{
+    height: 200px;
+    width: 800px;
+    background-color: violet;
+    display: flex;
+    border: 2px white;
+    border-radius: 10px;
+    text-align: center;
+}
+@media screen and (min-width:576px) and (max-width:760px){
+    div{
+        background-color: cornflowerblue;
+    }
+}
+div{
+    transition: all 3s;
+}
+div:hover{
+    background-color: wheat;
+    transform: translate(300px,300px);
+    transform: rotate(360deg);
+}
+body:hover{
+    background-color: skyblue;
+    
+}

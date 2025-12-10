@@ -1,0 +1,18 @@
+table,tr,td,th{
+    border-collapse: collapse;
+    border: 2px solid gray;
+}
+th{
+    font-style: italic;
+    background-color:black;
+    color: violet;
+    width: 100px;
+}
+td{
+    font-style:oblique;
+    text-align: center;
+    background-color: black;
+    color:red;
+    padding: 2px;
+    text-align: left;
+}
